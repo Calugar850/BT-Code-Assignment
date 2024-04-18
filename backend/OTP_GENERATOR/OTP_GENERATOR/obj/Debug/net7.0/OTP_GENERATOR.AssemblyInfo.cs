@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OTP_GENERATOR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c2e72d5ae4b3dfe985d15e3a21da6d8d17f32f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1758ab791ba41f6532fd7b4cf5d008b1078b745")]
 [assembly: System.Reflection.AssemblyProductAttribute("OTP_GENERATOR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OTP_GENERATOR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
