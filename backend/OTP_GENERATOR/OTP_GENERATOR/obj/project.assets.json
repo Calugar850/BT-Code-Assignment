@@ -3562,27 +3562,24 @@
   },
   "packageFolders": {
     "C:\\Users\\anama\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anama\\Desktop\\BT\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\OTP_GENERATOR.csproj",
+      "projectUniqueName": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\OTP_GENERATOR.csproj",
       "projectName": "OTP_GENERATOR",
-      "projectPath": "C:\\Users\\anama\\Desktop\\BT\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\OTP_GENERATOR.csproj",
+      "projectPath": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\OTP_GENERATOR.csproj",
       "packagesPath": "C:\\Users\\anama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anama\\Desktop\\BT\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\obj\\",
+      "outputPath": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\anama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -3602,6 +3599,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3664,7 +3666,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

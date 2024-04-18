@@ -18,18 +18,18 @@ namespace OTP_GENERATOR.Controllers
 
         [HttpPost("generate")]
         [ProducesResponseType(200)]
-        public IActionResult GenerateOTP([FromBody] string password)
+        public IActionResult GenerateOTP([FromBody] OTPRequest request)
         {
-            string otp = otpService.GenerateRandomOTP(password);
+            string otp = otpService.GenerateRandomOTP(request.password);
             return Ok(new { otp });
         }
 
         [HttpPost("validate")]
         [ProducesResponseType(200)]
-        public IActionResult ValidateOTP([FromBody] string UserOTP)
+        public IActionResult ValidateOTP([FromBody] OTPValidate UserOTP)
         {
             // Implement OTP validation logic here
-            bool isValid = otpService.ValidateUserOTP(UserOTP);
+            bool isValid = otpService.ValidateUserOTP(UserOTP.UserOTP);
             return Ok(new { isValid });
         }
     }
