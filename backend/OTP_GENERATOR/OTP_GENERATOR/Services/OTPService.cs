@@ -23,7 +23,7 @@ namespace OTP_GENERATOR.Services
             int otpValue = random.Next(100000, 999999);
             string optString = otpValue.ToString("D" + OtpLength);
             string optEncrypted = EncryptOtp(optString, key);
-            _otpDbContext.OTP.Add(new OTP() { OTPValue = optEncrypted });
+            _otpDbContext.OTP.Add(new OTP() { OTPValue = optEncrypted, CreatedDateTime = DateTime.Now });
             _otpDbContext.SaveChanges();
             return optEncrypted;
         }
@@ -64,8 +64,15 @@ namespace OTP_GENERATOR.Services
 
         public bool ValidateUserOTP(string userOTP)
         {
-            string encryptedOTP = _otpDbContext.OTP.OrderByDescending(o => o.id).FirstOrDefault()?.OTPValue;
-            return encryptedOTP == userOTP;
+            OTP encryptedOTP = _otpDbContext.OTP.OrderByDescending(o => o.id).FirstOrDefault()!;
+            if ((DateTime.Now - encryptedOTP.CreatedDateTime).TotalSeconds > 60)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }

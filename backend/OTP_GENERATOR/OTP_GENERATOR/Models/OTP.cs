@@ -7,5 +7,6 @@ namespace OTP_GENERATOR.Models
         [Key]
         public int id { get; set; }
         public string OTPValue { get; set; }
+        public DateTime CreatedDateTime { get; set; }
     }
 }

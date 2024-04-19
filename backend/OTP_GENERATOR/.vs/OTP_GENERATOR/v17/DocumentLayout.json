@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|c:\\users\\anama\\onedrive\\desktop\\bt\\bt-code-assignment\\backend\\otp_generator\\otp_generator\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|solutionrelative:otp_generator\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|c:\\users\\anama\\onedrive\\desktop\\bt\\bt-code-assignment\\backend\\otp_generator\\otp_generator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|solutionrelative:otp_generator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|c:\\users\\anama\\onedrive\\desktop\\bt\\bt-code-assignment\\backend\\otp_generator\\otp_generator\\models\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|solutionrelative:otp_generator\\models\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|c:\\users\\anama\\onedrive\\desktop\\bt\\bt-code-assignment\\backend\\otp_generator\\otp_generator\\context\\optdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A94E14-8F83-48A9-B815-7E0E69675CEE}|OTP_GENERATOR\\OTP_GENERATOR.csproj|solutionrelative:otp_generator\\context\\optdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OPTDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Context\\OPTDbContext.cs",
+              "RelativeDocumentMoniker": "OTP_GENERATOR\\Context\\OPTDbContext.cs",
+              "ToolTip": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Context\\OPTDbContext.cs",
+              "RelativeToolTip": "OTP_GENERATOR\\Context\\OPTDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T12:22:40.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OTP.cs",
+              "DocumentMoniker": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Models\\OTP.cs",
+              "RelativeDocumentMoniker": "OTP_GENERATOR\\Models\\OTP.cs",
+              "ToolTip": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Models\\OTP.cs",
+              "RelativeToolTip": "OTP_GENERATOR\\Models\\OTP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T12:20:11.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OTPService.cs",
+              "DocumentMoniker": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Services\\OTPService.cs",
+              "RelativeDocumentMoniker": "OTP_GENERATOR\\Services\\OTPService.cs",
+              "ToolTip": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Services\\OTPService.cs",
+              "RelativeToolTip": "OTP_GENERATOR\\Services\\OTPService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T12:20:10.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Program.cs",
+              "RelativeDocumentMoniker": "OTP_GENERATOR\\Program.cs",
+              "ToolTip": "C:\\Users\\anama\\OneDrive\\Desktop\\BT\\BT-Code-Assignment\\backend\\OTP_GENERATOR\\OTP_GENERATOR\\Program.cs",
+              "RelativeToolTip": "OTP_GENERATOR\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T11:01:18.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

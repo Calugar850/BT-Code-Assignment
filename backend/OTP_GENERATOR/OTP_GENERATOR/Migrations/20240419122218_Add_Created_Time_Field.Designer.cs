@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OTP_GENERATOR.Context;
 
@@ -11,9 +12,11 @@ using OTP_GENERATOR.Context;
 namespace OTP_GENERATOR.Migrations
 {
     [DbContext(typeof(OPTDbContext))]
-    partial class OPTDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240419122218_Add_Created_Time_Field")]
+    partial class Add_Created_Time_Field
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

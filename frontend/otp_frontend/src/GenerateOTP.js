@@ -8,13 +8,13 @@ const GenerateOTP = () => {
         password: '',
     };
 
-    const[app_user, setGroup] = useState(initialFormState);
+    const[otp_request, setGroup] = useState(initialFormState);
     const navigate = useNavigate();
 
     const handleChange = (event) => {
         const { name, value } = event.target
 
-        setGroup({ ...app_user, [name]: value })
+        setGroup({ ...otp_request, [name]: value })
     }
 
     const handleSubmit = async (event) => {
@@ -26,11 +26,11 @@ const GenerateOTP = () => {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(app_user)
+            body: JSON.stringify(otp_request)
         });
 
-        const user_data = await response.json();
-        console.log(user_data);
+        const data = await response.json();
+        localStorage.setItem("userOTP", data.otp);
         setGroup(initialFormState);
         navigate('/validateOTP');
     }
@@ -43,7 +43,7 @@ const GenerateOTP = () => {
                 <Form onSubmit={handleSubmit}>
                     <FormGroup>
                         <Label for="password">Password</Label>
-                        <Input type="password" name="password" id="password" value={app_user.password || ''}
+                        <Input type="password" name="password" id="password" value={otp_request.password || ''}
                                onChange={handleChange} autoComplete="Password"/>
                     </FormGroup>
                     <FormGroup>
